@@ -5,30 +5,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>JS課題1</title>
+  <style>
+    ul li{
+      list-style-type: none;
+    }
+  </style>
 </head>
 
 <body>
-  <main>
+
     <div class="container">
       <section>
-        <select name="example">
-          <option value="ロンドン">ロンドン</option>
-          <option value="東京">東京</option>
-          <option value="パリ">パリ</option>
-          <option value="ニューヨーク">ニューヨーク</option>
-          <option value="インドネシア">インドネシア</option>
-        </select>
+        <form id="form">
+          <select id="select">
+            <option value="london">ロンドン</option>
+            <option value="tokyo">東京</option>
+            <option value="paris">パリ</option>
+            <option value="new york">ニューヨーク</option>
+            <option value="indonesia">インドネシア</option>
+          </select>
+        </form>
       </section>
     </div><!-- /.container -->
 
-    <div id="cityname">
-      <p>ロンドンの天気</p>
-      <p>東京の天気</p>
-      <p>パリの天気</p>
-      <p>ニューヨークの天気</p>
-      <p>インドネシアの天気</p>
-    </div>
-  </main>
+    <ul>
+      <li id="cityweather"></li>
+      <li id="temp"></li>
+      <li id="humidity"></li>
+
+
+    </ul>
 
   <script src="script.js"></script>
 </body>
