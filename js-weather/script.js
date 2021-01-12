@@ -1,6 +1,4 @@
 'use strict';
-//select要素の取得
-let select = document.querySelector("#select");
 //option要素の取得（配列）
 let options = document.querySelectorAll("#select option");
 
